@@ -1,0 +1,32 @@
+/*posso modificare tutte le dimensioni di tutto il body
+
+body{
+    font-size: 20px; dimensione assoluta
+}
+*/
+
+
+
+
+
+:root{
+    font-size: 25px;
+}
+#t1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+#t2{
+    font-size: 16px;
+    color: rgb(255, 0, 0)
+    font-family: 'Roboto', sans-serif;
+}
+#parent{
+    font-size: 50px;
+}
+
+#t3{
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic; 
+}

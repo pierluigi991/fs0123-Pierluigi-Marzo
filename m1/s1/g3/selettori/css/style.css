@@ -1,0 +1,30 @@
+#rosso{
+    background-color: red;
+} /*si usano per selezionare aree importanti e uniche della pagina e non per elementi che si ripetono*/
+.giallo{
+    background-color: yellow;
+}/* il puntino "." vuol dire class mentre il cancelletto id*/
+
+
+#conflitti div{
+    background-color: brown ;
+}
+
+#conflitti .verde{
+    background-color: green;
+}/* nel caso di due selettori dicano due cose diverse sullo stesso elemento, vince l'ultimo*/
+
+
+/*
+div hanno peso 1
+le classi 10
+id ne hanno 100
+*/
+
+#conflitti #rosa{
+    background-color: pink;
+}
+
+#conflitti #rosa.verde{
+    background-color: blueviolet;
+}

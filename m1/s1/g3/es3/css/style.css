@@ -1,0 +1,31 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+    border-bottom: 1px yellow;
+    font-weight: bold;
+    
+    border-top: black;
+     
+}
+main{
+    margin: 0 auto;
+    width: 450px;
+}
+div{
+    color: rgb(219, 52, 52);
+    border-left-color: rgb(230, 198, 72);
+}
+section{
+    line-height: 1.5;
+}
+h2{
+    border-bottom: 2px solid grey;
+    border-color: 2px;
+}
+p{
+    padding: 10px;
+}

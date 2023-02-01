@@ -1,0 +1,25 @@
+div{
+    color:blue;
+    background-color: red;
+}
+/*
+questo è un commento css
+*/
+
+/*
+selettore {
+      proprietà/regola regola : valore ;
+      proprietà/regola regola : valore ;
+      proprietà/regola regola : valore ;
+}
+*/
+
+div span{
+    color: black;
+}
+/* qui invece significa gli span figli dei div*/
+
+div, span{
+    border: 1px solid white 
+}
+/* tutti i div e tutti gli span per essere selezionati si mette la virgola*/
