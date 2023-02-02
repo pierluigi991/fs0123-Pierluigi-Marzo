@@ -6,10 +6,11 @@ header{
     margin: 0 auto;
     width: 450px;
     border-bottom: 1px yellow;
-    font-weight: bold;
-    
     border-top: black;
      
+}
+span{
+    font-weight: bold;
 }
 main{
     margin: 0 auto;
