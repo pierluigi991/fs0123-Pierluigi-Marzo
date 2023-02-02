@@ -1,0 +1,45 @@
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    font-size: 3rem;
+}
+
+section > span{
+    text-decoration: line-through;
+}
+section + small{
+    font-weight: bold;
+}
+section ~ small{
+    color: red;
+}/* segno tilde che si fa alt126 alternati i numeri*/
+
+
+#toggle{
+    display: none;
+}/* questa e una pseudo classe*/
+
+#menu{
+    background-color: bisque;
+    height: 0;
+    overflow: hidden;
+    transition: height o.3s;
+}
+
+#toggle:checked + #menu{
+    height: 70px;
+}
+
+#menu li:hover{
+    background-color: white;
+}
+
+#menu
