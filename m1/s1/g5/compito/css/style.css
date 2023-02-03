@@ -1,0 +1,103 @@
+/* Your styles here */
+body{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+line-height: 1.65rem;
+}
+
+header{
+    text-align: center;
+}
+
+main .banner a{
+    background-color: #f04c2f;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+section .banner{
+    background-image: url(file:///C:/Users/utente/OneDrive/Desktop/compito/images/banner.jpg);
+    text-align: center;
+    line-height: 1.2rem;
+}
+h1{
+    color: blue;   
+    margin-bottom: 15px;
+
+}
+.banner{
+    font-size: 16px;
+    font-weight: bold;
+   
+    line-height: 30rem;
+}
+
+.content{
+    text-align: center;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+h3{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+section .info{
+    text-align: center;
+    background-color: #e22d0e;
+    
+
+}
+h2{
+    color: white;
+    font-weight: bold;
+    color: white;
+    border-bottom: 30px;
+
+}
+section .info p{
+    font-style: oblique;
+    color: white;
+}
+.foto1{
+    text-align: center;
+    border-radius: 100%;
+}
+.foto2{
+    text-align: center;
+}
+.foto3{
+    text-align: center;
+}
+.notebook{
+    text-align: center;
+}
+footer{
+    background-color: #25a2c3;
+    text-align: center;
+    color: white;
+    border-bottom: 0px;
+}
+footer .a::before{
+    font-family: FontAwesome;
+    color: white;
+}
+footer.address ::before{
+font-family: fontawesome;
+}
+article{
+    border-color: #dee1e3;
+
+}
