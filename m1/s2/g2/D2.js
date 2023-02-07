@@ -12,11 +12,14 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-/*Boolean
-Number
-Object
-String*/
-
+/*Boolean  datatype che serve per descrivere una condizione di vero falso
+Number  datatype che serve per racchiudere tutti i tipi di dati numerici che non richiedono trasformazioni
+String   datatype che serve per far rappresentare una i caratteri
+Object   datatype tipo di variabile che contiene valori multipli, contiene l'insieme dei valori da attribuire a una variabile*/
+ console.log(typeof true);
+ console.log(typeof 1);
+ console.log(typeof 'testo')
+ console.log(typeof {});
 
 
 /* ESERCIZIO 2
@@ -57,7 +60,9 @@ name = marzo;
 console.log(name);
 
 const variabile = 'ciao';
-variabile = 'ciao ciao'
+variabile = 'ciao ciao';
+ 
+
 
 
 /* ESERCIZIO 6
