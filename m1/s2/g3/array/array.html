@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+      let arr = []
+      let numeri = [1,2,3,4,5,6]
+      document.write(numeri) //conversione dell'array in stringa //
+
+      let dati = [
+        'stringa',
+        0,
+        true,
+        {},
+      ]
+    //lettura//
+    let pizze = ['Margherita' , 'Diavola' , '4 formaggi']
+    console.log(pizze)
+
+    pizze[0]
+    console.log(pizze[0]);
+
+    let pizza2 = pizze[1]
+    console.log(pizza2)
+
+    //scrittura array//
+    pizze[2] = 'Capricciosa'
+    console.log(pizze);
+
+    //attenzione, evitiamo buchi//
+
+    pizze[4] = 'marinara'
+    console.log(pizze); //buco all'indice 3//
+
+    //per raggiungere la fine dell'array senza creare buchi//
+    //push//
+    pizze.push('parigina')
+    console.log(pizze)
+
+    //riordinazione, inversione non valido per i numeri//
+
+    let studenti = ['mauro','vittorio','rebecca']
+    console.log(studenti);
+    studenti.sort()
+    console.log(studenti);
+    studenti.reverse()
+    console.log(studenti);
+
+    //riordinare numeri//
+    let numerati =[1,100,20]
+    numerati.sort()
+    console.log(numerati);
+    numerati.sort(function(a,b){
+        return a - b
+    })
+    console.log(numerati);
+
+    //lenght//
+    console.log(pizze.len);
+    console.log(5);
+    console.log(pizze[pizze.length - 1]);// serve per leggere l'ultimo elemento//
+    
+
+
+
+    </script>
+</body>
+</html>
