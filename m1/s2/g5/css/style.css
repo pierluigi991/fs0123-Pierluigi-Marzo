@@ -1,0 +1,6 @@
+.riga{
+    height: 25px;
+    width: calc(100% / 4 - 0.4rem);
+    color: blue;
+    margin-top: auto;
+}
