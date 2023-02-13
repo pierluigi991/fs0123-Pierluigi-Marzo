@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //in mancanza di parentesi graffe il return è implicito
+        // e con un solo parametro evito anche le tonde
+        //ma devo strutturare funzione oneline( di una riga )
+     let grassetto = stringa=> `<b>${stringa}</b>`
+     //let grassetto = (stringa)=> `<b>${stringa}</b>`
+     let sommaFreccia = (a,b) => a+b;
+     console.log(sommaFreccia(3,70));
+
+     //spread operator sulle funzioni
+
+     let sommaProultra = (...numeri) => numeri.reduce((p,c)=> p+c)
+    </script>
+</body>
+</html>
