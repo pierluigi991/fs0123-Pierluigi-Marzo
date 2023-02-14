@@ -7,26 +7,32 @@
     <title>Document</title>
 </head>
 <body>
-    
+
     <script>
-       let  lettereMaiuscole = 'ASDJFGSDJGADAGSFDGASFDJGA'
-       let lettereMinuscole = 'ahgdhsdfjahgdagdhgafsdagasfdasfdga'
-       let num = 0123456789;
-       let simboli = '£$%&()'
-
-       let chars = lettereMaiuscole + lettereMinuscole + num + simboli;
-
-       
-       //generatore di pass
-      function generaPassword({
-        
 
 
-       
+        function generaPassword(lunghezza){
+            let lettereMaiusc = 'QWERTYUIOPLKJHGFDSAZXCVBNM';
+            let lettereMinusc = lettereMaiusc.toLowerCase();
+            let num = 0123456789;
+            let simboli = '$%&/()#@[]';
+
+            let chars = lettereMaiusc + lettereMinusc + num + simboli;
+
+            let password = '';
+            for(var i = 0; i < lunghezza; i++){
+                let rand = Math.floor(Math.random() * chars.length);// 0 ~ 70
+                password += chars[rand];
+            }
+            return password;
+        }
 
 
-      })
-       
+        let stringa = generaPassword(12);
+        let stringa2 = generaPassword(12);
+        let stringa3 = generaPassword(12);
+        let stringa4 = generaPassword(12);
+        console.log([stringa, stringa2, stringa3, stringa4])
 
     </script>
 </body>
