@@ -365,6 +365,7 @@ function removeIndex(n) {
 }
 
 
+
 // DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
 /* ESERCIZIO 20
