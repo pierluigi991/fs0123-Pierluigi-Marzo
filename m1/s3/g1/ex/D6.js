@@ -1,4 +1,4 @@
-*
+/*
 REGOLE
 - Tutte le risposte devono essere scritte in JavaScript
 - Se sei in difficoltà puoi chiedere aiuto a un Teaching Assistant
